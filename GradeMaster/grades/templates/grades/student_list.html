@@ -1,0 +1,20 @@
+{% extends 'grades/base.html' %}
+
+{% block title %}Student List{% endblock %}
+
+{% block content %}
+    <h1>Student List</h1>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            Add Student
+        </button>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="{% url 'add_student' %}">Add Students</a>
+        </div>
+
+
+
+
+        </ul>
+    </div>
+{% endblock %}

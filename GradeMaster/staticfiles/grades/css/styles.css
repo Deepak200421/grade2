@@ -1,0 +1,10 @@
+body {
+    background-image: url('{% static 'grades/images/background-image.jpg' %}');
+    background-size: cover;
+    background-position: center;
+    color: blue;
+}
+
+.navbar {
+    background-color: grey;
+}
